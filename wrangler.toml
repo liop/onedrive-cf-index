@@ -1,10 +1,10 @@
-name = "drive"
+name = "rough-haze-94cf"
 type = "webpack"
 workers_dev = true
-account_id = "b87997a496f985b46b927b3f24c61de1"
-zone_id = "b04152d2c33ff4653cec1a579be6d42a"
+account_id = "d98558ced0d40d7099ddb370a9bfa3be"
+zone_id = "a213346d81b4f8251343733e62ede213"
 kv_namespaces = [
-    { binding = "BUCKET", preview_id = "55b0fc4e288a465fb225421f2af5d445", id = "09b0cf433f394b309d35d1ff3bd0bf39" }
+    { binding = "BUCKET",   id = "ba5cd28dc76e4917b75a80a37bed1f81" }
 ]
 
 [env.staging]
