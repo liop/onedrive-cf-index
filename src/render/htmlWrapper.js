@@ -27,7 +27,7 @@ export function renderHTML(body, pLink, pIdx) {
   const p = 'window[pLinkId]'
 
   return `<!DOCTYPE html>
-  <html lang="en">
+  <html lang="zh">
     <head>
       <meta charset="utf-8" />
       <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
@@ -48,7 +48,7 @@ export function renderHTML(body, pLink, pIdx) {
       <script src="https://cdn.jsdelivr.net/npm/dplayer@1.26.0/dist/DPlayer.min.js"></script>
     </head>
     <body>
-      <nav id="navbar" data-turbolinks-permanent><div class="brand">OneDrive 上的资源备份</div></nav>
+      <nav id="navbar" data-turbolinks-permanent><div class="brand">OneDrive 资源备份</div></nav>
       ${body}
       <div class="paginate-container">${pagination(pIdx)}</div>
       <div id="flex-container" data-turbolinks-permanent style="flex-grow: 1;"></div>
