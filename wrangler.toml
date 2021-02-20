@@ -1,10 +1,10 @@
 name = "rough-haze-94cf"
 type = "webpack"
 workers_dev = true
-account_id = "d98558ced0d40d7099ddb370a9bfa3be"
-zone_id = "a213346d81b4f8251343733e62ede213"
+account_id = "a213346d81b4f8251343733e62ede213"
+zone_id = "d98558ced0d40d7099ddb370a9bfa3be"
 kv_namespaces = [
-    { binding = "BUCKET",   id = "ba5cd28dc76e4917b75a80a37bed1f81" }
+    { binding = "BUCKET", id = "0c72677f8ba944e1b5cfb25127e8d11e" }
 ]
 
 [env.staging]
